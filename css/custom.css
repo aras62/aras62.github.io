@@ -1,6 +1,17 @@
 /* This sets the Google Web Font Open Sans for all the web pages ------------- */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700');
 
+.button {
+  background-color: #c5c5c5; /* Green */
+  border: none;
+  color: white;
+  padding: 8px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+}
 
 html {
   font-size: 1.00rem; /* 20px / 16px = 1.125 */
@@ -33,6 +44,7 @@ h1, h2, h3 {
 h4, h5, h6 {
    font-weight: 600;
 }
+
 
 p, li, th, td, dd, dl, a, dl, input, textarea, button, select, option {
    font-weight: 400;
